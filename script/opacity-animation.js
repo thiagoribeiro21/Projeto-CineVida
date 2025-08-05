@@ -1,4 +1,6 @@
 (function () {
+  // Configuração do Intersection Observer
+  // Animação de opacidade para elementos com a classe .opacity-animation
   const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
       if (entry.isIntersecting) {

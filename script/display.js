@@ -1,7 +1,9 @@
 import { fetchAndDisplayMovies } from "./api.js";
 
+// Aguarda o carregamento do DOM antes de executar o código
 document.addEventListener("DOMContentLoaded", function () {
-  
+  // Busca e exibe filmes em várias categorias
+
   fetchAndDisplayMovies("/movie/popular", "popular-movies");
 
   fetchAndDisplayMovies("/movie/now_playing", "now-playing-movies");
@@ -21,5 +23,4 @@ document.addEventListener("DOMContentLoaded", function () {
   fetchAndDisplayMovies("/discover/movie?with_genres=12", "adventure-movies");
 
   fetchAndDisplayMovies("/discover/movie?with_genres=53", "thriller-movies");
-
 });

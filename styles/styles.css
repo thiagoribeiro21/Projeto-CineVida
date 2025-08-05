@@ -450,6 +450,7 @@ svg {
 
 /* Versão tablet responsiva. */
 @media screen and (width > 48em) {
+  /* Adaptação de tamanhos para > 48em, flex-directions e troca de posição dos icones do header */
   :root {
     --grid-margin: 2rem;
     --grid-gap: 1.2rem;
@@ -546,7 +547,10 @@ svg {
   }
 }
 
+/* Versão desktop menor responsivo. */
+
 @media screen and (width > 62.5em) {
+  /* Adaptação de tamanhos para > 62.5em, flex-directions e troca de layout do header */
   :root {
     --grid-margin: 3em;
     --grid-gap: 2rem;
@@ -656,7 +660,7 @@ svg {
       width: 200px;
     }
   }
-
+  /* Animação em conjunto do JavaScript dos filmes scrollando de forma infinita */
   .div-container {
     position: relative;
     overflow: hidden;
@@ -721,7 +725,9 @@ svg {
   }
 }
 
+/* Versão Desktop maior */
 @media screen and (width > 78em) {
+  /* Ajustes de tamanho e colocando max-width para estilizar todos no centro */
   :root {
     --grid-margin: 3.5em;
     --grid-gap: 2.5rem;

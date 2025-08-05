@@ -21,7 +21,6 @@
 
     <link rel="icon" type="image/png" href="images/filme.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
@@ -29,7 +28,8 @@
     />
   </head>
   <body>
-    <header class="header flex-column-m flex-row-lg" id="header">
+    <!-- Seção do header com a nav que fica fixo, -->
+    <header class="header flex-row-lg" id="header">
       <div class="flex-row-sm">
         <div class="header__name">
           <h1><a href="#inicio">CineVida</a></h1>
@@ -109,6 +109,7 @@
       </div>
     </header>
     <main>
+      <!-- Seção do wallpaper da página com estrutura do bootstrap -->
       <div id="carouselExampleIndicators" class="carousel slide">
         <div class="carousel-indicators">
           <button
@@ -175,6 +176,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
+      <!-- Seções de filmes populares, em cartaz e melhores avaliados -->
       <section class="populares" id="inicio">
         <div class="div-container opacity-animation">
           <h2>Populares</h2>
@@ -226,6 +228,7 @@
         </svg>
       </section>
 
+      <!-- Seção de uma box com os gêneros dos filmes-->
       <section class="generos" id="generos">
         <div class="div-container generos-lg opacity-animation flex-row-lg">
           <h2>Gêneros</h2>

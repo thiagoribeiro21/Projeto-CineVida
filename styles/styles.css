@@ -1,3 +1,4 @@
+/* Declaração das variáveis */
 :root {
   --cor-principal: #121212;
   --cor-secundaria: #1a242f;
@@ -11,14 +12,14 @@
   --grid-gap-metade: calc(var(--grid-gap) / 2);
   --grid-margin-metade: calc(var(--grid-margin) / 2);
 }
-
+/* Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   border: none;
 }
-
+/* Personalização do scrollbar */
 *::-webkit-scrollbar {
   height: 10px;
   width: 10px;
@@ -53,6 +54,7 @@
 *::-webkit-scrollbar-thumb:active {
   background-color: #ffffff73;
 }
+/* Estilos das tags */
 
 html {
   scroll-behavior: smooth;
@@ -116,6 +118,7 @@ main {
 svg {
   transform: translateY(2px);
 }
+/* Animação das seções */
 .opacity-animation {
   opacity: 0;
   transform: translateY(10%);
@@ -133,6 +136,7 @@ svg {
 #contatos {
   scroll-margin-top: 150px;
 }
+/* Classes para flex */
 
 .flex-row-sm {
   display: flex;
@@ -143,6 +147,8 @@ svg {
   display: flex;
   flex-direction: column;
 }
+
+/* Estilizar os icones do header*/
 
 .btnn {
   border: none;
@@ -174,6 +180,8 @@ svg {
   opacity: 0;
   transition: opacity 1s ease-in-out;
 }
+
+/* Estilizar os containers dos filmes */
 
 .movies-container {
   display: flex;
@@ -242,6 +250,8 @@ svg {
   letter-spacing: 1px;
 }
 
+/* Header e Nav do header estilizados e configuração da transição em conjunto do JavaScript */
+
 .nav__ul.show__nav {
   right: 0;
   top: 7%;
@@ -269,6 +279,7 @@ svg {
     text-align: center;
     border-bottom: none;
     letter-spacing: 1.5px;
+    font-size: 1.5rem;
     a {
       color: var(--cor-terciaria);
       text-decoration: none;
@@ -341,6 +352,7 @@ svg {
     }
   }
 }
+/* Estilização de outros botões */
 
 .btn-icon {
   padding: var(--grid-gap-metade);
@@ -351,30 +363,6 @@ svg {
   border: none;
   img {
     width: 20px;
-  }
-}
-
-#abrir-pesquisa {
-  justify-content: start;
-  margin-left: var(--grid-gap);
-}
-
-.cartaz,
-.generos {
-  background-color: var(--cor-secundaria);
-  color: var(--cor-terciaria);
-}
-.footer {
-  width: 100%;
-  background-color: var(--cor-principal);
-  color: var(--cor-terciaria);
-  padding: var(--grid-gap);
-  text-align: center;
-  font-family: "Bebas Neue";
-  letter-spacing: 1px;
-
-  p {
-    padding: var(--grid-gap);
   }
 }
 
@@ -402,6 +390,32 @@ svg {
     width: 60px;
     padding-right: var(--grid-gap);
     border-right: 1px solid var(--cor-terciaria);
+  }
+}
+
+#abrir-pesquisa {
+  justify-content: start;
+  margin-left: var(--grid-gap);
+}
+
+/* Estilização das seções */
+
+.cartaz,
+.generos {
+  background-color: var(--cor-secundaria);
+  color: var(--cor-terciaria);
+}
+.footer {
+  width: 100%;
+  background-color: var(--cor-principal);
+  color: var(--cor-terciaria);
+  padding: var(--grid-gap);
+  text-align: center;
+  font-family: "Bebas Neue";
+  letter-spacing: 1px;
+
+  p {
+    padding: var(--grid-gap);
   }
 }
 
@@ -434,6 +448,7 @@ svg {
   background-color: var(--cor-secundaria);
 }
 
+/* Versão tablet responsiva. */
 @media screen and (width > 48em) {
   :root {
     --grid-margin: 2rem;

@@ -37,8 +37,7 @@ Este projeto foi uma oportunidade para aplicar e aprofundar conhecimentos em:
 
 ## Screenshots
 
-<img src="images/screenshots-readme/screenshot-inicio (1).png
-" alt="Wallpaper inicio">
+<img src="images/screenshots-readme/screenshot-inicio.png" alt="Wallpaper inicio">
 <img src="images/screenshots-readme/screenshot-populares.png" alt="Wallpaper populares">
 <img src="images/screenshots-readme/screenshot-emCartaz.png" alt="Wallpaper em cartaz">
 <img src="images/screenshots-readme/screenshot-topRated.png" alt="Wallpaper melhores avaliados">

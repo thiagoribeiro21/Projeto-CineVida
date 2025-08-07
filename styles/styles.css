@@ -734,10 +734,6 @@ svg {
   /* Ajustes de tamanho e colocando max-width para estilizar todos no centro */
   :root {
     --h2-size: 3.3rem;
-    /* --grid-margin: 3.5em;
-    --grid-gap: 2.5rem;
-    --h1-size: 3em;
-    --h3-size: 1.8rem; */
   }
 
   .generos-lg {
